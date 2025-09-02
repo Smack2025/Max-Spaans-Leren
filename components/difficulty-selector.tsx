@@ -30,6 +30,33 @@ export function DifficultySelector({ onSelectDifficulty, onPlayAll }: Difficulty
       bgColor: "bg-yellow-50 hover:bg-yellow-100",
       borderColor: "border-yellow-200",
     },
+    {
+      level: 3,
+      name: "Advanced",
+      description: "Fun activities and hobbies",
+      icon: Star,
+      color: "text-blue-600",
+      bgColor: "bg-blue-50 hover:bg-blue-100",
+      borderColor: "border-blue-200",
+    },
+    {
+      level: 4,
+      name: "Expert",
+      description: "Complex concepts",
+      icon: Zap,
+      color: "text-purple-600",
+      bgColor: "bg-purple-50 hover:bg-purple-100",
+      borderColor: "border-purple-200",
+    },
+    {
+      level: 5,
+      name: "Master",
+      description: "Advanced vocabulary",
+      icon: Star,
+      color: "text-red-600",
+      bgColor: "bg-red-50 hover:bg-red-100",
+      borderColor: "border-red-200",
+    },
   ]
 
   return (
@@ -40,7 +67,7 @@ export function DifficultySelector({ onSelectDifficulty, onPlayAll }: Difficulty
           <p className="text-lg text-muted-foreground font-body">Select a difficulty level to start learning</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
           {difficulties.map((difficulty) => {
             const Icon = difficulty.icon
             return (
