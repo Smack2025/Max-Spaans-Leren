@@ -33,3 +33,17 @@ export interface GameQuestion {
   options: string[]
   correctAnswer: string
 }
+
+export interface GameWord {
+  id: number
+  spanish: string
+  dutch: string
+  image: string | null
+  options: Array<{ text: string }>
+  difficulty: number
+  progress?: {
+    correct: number
+    incorrect: number
+    mastery: number
+  } | null
+}
