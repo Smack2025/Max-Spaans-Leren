@@ -21,7 +21,12 @@ INSERT INTO words (spanish_word, dutch_translation, image_url, difficulty_level)
 ('notificación', 'notificatie', '/placeholder.svg?height=200&width=200', 2),
 ('hashtag', 'hashtag', '/placeholder.svg?height=200&width=200', 2),
 
--- Removed all level 3 entries (Advanced Brainrot Terms and Gaming & Tech Slang)
+-- Advanced Brainrot Terms (Level 3)
+('emoji', 'emoji', '/smiling-emoji.png', 3),
+('lag', 'vertraging', '/network-lag.png', 3),
+('avatar', 'avatar', '/user-avatar.png', 3),
+('píxel', 'pixel', '/pixel-art.png', 3),
+('glitch', 'glitch', '/glitch-effect.png', 3),
 
 -- Internet Phenomena (Level 4)
 ('rickroll', 'rickroll', '/placeholder.svg?height=200&width=200', 4),
