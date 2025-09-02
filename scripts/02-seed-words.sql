@@ -20,4 +20,9 @@ INSERT INTO words (spanish_word, dutch_translation, image_url, difficulty_level)
 ('trabajo', 'werk', '/placeholder.svg?height=200&width=200', 2),
 ('familia', 'familie', '/placeholder.svg?height=200&width=200', 2),
 ('amigo', 'vriend', '/placeholder.svg?height=200&width=200', 2),
-('tiempo', 'tijd', '/placeholder.svg?height=200&width=200', 2);
+('tiempo', 'tijd', '/placeholder.svg?height=200&width=200', 2),
+('montaña', 'berg', '/snow-capped-mountain.png', 3),
+('ciudad', 'stad', '/city-skyline.png', 3),
+('viaje', 'reis', '/travel-suitcase.png', 3),
+('cultura', 'cultuur', '/cultural-festival.png', 3),
+('economía', 'economie', '/economic-chart.png', 3);
